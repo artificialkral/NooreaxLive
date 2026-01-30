@@ -1,0 +1,40 @@
+{
+  "eventStartISO": "2025-11-01T00:00:00.000Z",
+  "dayTotal": 30,
+  "status": "LIVE",
+  "activeStreamer": "NOOREAX",
+  "activeShift": "TAG",
+  "nextStreamer": "VETQ",
+  "nextShift": "NACHT",
+  "expectedWindow": {
+    "from": "13:30",
+    "to": "16:00"
+  },
+  "shiftLog": [
+    {
+      "id": "shift_seed_1",
+      "streamer": "VETQ",
+      "shift": "NACHT",
+      "startISO": "2025-11-16T22:30:00.000Z",
+      "endISO": "2025-11-17T10:10:00.000Z"
+    },
+    {
+      "id": "shift_seed_2",
+      "streamer": "NOOREAX",
+      "shift": "TAG",
+      "startISO": "2025-11-17T10:10:00.000Z",
+      "endISO": null
+    }
+  ],
+  "stamps": [
+    {
+      "id": "stamp_e6e52e1595c6c8_1769754898237",
+      "streamer": "NOOREAX",
+      "stampedAtISO": "2026-01-30T06:34:58.235Z",
+      "expectedWindow": {
+        "from": "13:30",
+        "to": "16:00"
+      }
+    }
+  ]
+}
